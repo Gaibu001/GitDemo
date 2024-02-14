@@ -31,7 +31,7 @@ public class Geolocation {
 		driver.findElement(By.name("q")).sendKeys("netflix");
 		driver.findElement(By.name("q")).submit();
 		driver.findElement(By.cssSelector(".LC20lb ")).click();
-		
+		driver.quit();
 
 	}
 
